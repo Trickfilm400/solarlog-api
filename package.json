@@ -1,17 +1,11 @@
 {
-	"devDependencies": {
-		"@types/node": "^17.0.30",
-		"typescript": "^4.6.4"
-	},
-	"dependencies": {
-		"axios": "^0.27.2"
-	},
-	"name": "solarlog-api",
+	"name": "@trickfilm400/solarlog-api",
 	"version": "0.0.1",
 	"description": "SolarLog Nodejs API",
 	"main": "dist/index.js",
+	"typings": "types/types.d.ts",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "tsc"
 	},
 	"keywords": [
 		"nodejs",
@@ -19,5 +13,15 @@
 		"solarlog"
 	],
 	"author": "Nico W. <info@ni-wa.de> (https://trickfilm400.de/)",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^17.0.42",
+		"typescript": "^4.7.3"
+	},
+	"dependencies": {
+		"axios": "^0.27.2"
+	},
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
+	}
 }
