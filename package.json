@@ -1,6 +1,6 @@
 {
 	"name": "@trickfilm400/solarlog-api",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "SolarLog Nodejs API",
 	"main": "dist/index.js",
 	"typings": "types/types.d.ts",
@@ -22,6 +22,6 @@
 		"axios": "^1.5.0"
 	},
 	"publishConfig": {
-		"registry":"https://npm.pkg.github.com"
+		"registry": "https://npm.pkg.github.com"
 	}
 }
