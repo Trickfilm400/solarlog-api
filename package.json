@@ -15,11 +15,11 @@
 	"author": "Nico W. <info@ni-wa.de> (https://trickfilm400.de/)",
 	"license": "MIT",
 	"devDependencies": {
-		"@types/node": "^20.6.1",
-		"typescript": "^5.2.2"
+		"@types/node": "^20.10.4",
+		"typescript": "^5.3.3"
 	},
 	"dependencies": {
-		"axios": "^1.5.0"
+		"axios": "^1.6.2"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
