@@ -27,4 +27,4 @@ client.getStatusAndProduction().then((res) => {
 }).catch(console.error);
 ```
 
-&copy; 2022 Trickfilm400
+&copy; 2022-2023 Trickfilm400
