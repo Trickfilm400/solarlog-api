@@ -1,6 +1,6 @@
 {
 	"name": "@trickfilm400/solarlog-api",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "SolarLog Nodejs API",
 	"main": "dist/index.js",
 	"typings": "types/types.d.ts",
