@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           access: public
           tag: latest
+          provenance: true
       #### PUBLISH TO GITHUB NPM ####
       - uses: JS-DevTools/npm-publish@v3
         with:
